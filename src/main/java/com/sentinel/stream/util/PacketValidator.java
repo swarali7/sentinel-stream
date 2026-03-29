@@ -4,7 +4,7 @@ import com.sentinel.stream.model.DataPacket;
 
 public class PacketValidator {
 
-    public static void main(DataPacket packet){
+    public static void validate(DataPacket packet){
         if (packet == null) {
             throw new IllegalArgumentException("Packet cannot be null");
         }
